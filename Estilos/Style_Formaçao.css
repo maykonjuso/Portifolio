@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+/* Variáveis */
+
+:root {
+  --cor1: #fafafa;
+  --cor2: #9DC3C1;
+  --cor3: #77A4A3;
+  --cor4: #538587;
+  --cor5: #366068;
+  --cor6: #182B32;
+  --cor7: #182B32;
+}
+
+/* Globais */
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--cor2);
+  margin-top: 10px;
+}
+
+/* Cabeçalho */
+
+header {
+  background-color: var(--cor1);
+  position: sticky;
+  top: 0px;
+  box-shadow: 0 0 1em var(--cor4);
+}
+
+/* Habilidades */
+
+.habilidades {
+  font-family: "Open Sans", sans-serif;
+  width: 69%;
+  height: 28px;
+  padding-left: 1%;
+  background-color: var(--cor1);
+  color: var(--cor7);
+  font-size: 12px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  box-shadow: 0em -1em var(--cor6);
+}
+
+/* Menu de navegação */
+
+nav {
+  width: 30%;
+  height: 28px;
+  color: var(--cor1);
+  float: right;
+  box-shadow: 0em -1em var(--cor5);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  color: var(--cor7);
+  padding: 5px 15px;
+  display: block;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: var(--cor4);
+}
+
+/* Logo */
+
+.logo {
+  font-family: "Righteous", cursive;
+  background-color: var(--cor1);
+  color: var(--cor7);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
