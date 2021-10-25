@@ -1,31 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>  
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="Site com o objetivo de exemplificar habilidades web." />
-      <meta name="author" content="Maykon júnio" />
-      <link rel="shortcut icon" type="imagex/png" href="../Midia/Imagens/icon.png"/>
-      <link rel="stylesheet" href="../Estilos/Style.css" />
-        <title>Contato - Maykon Júnio</title>
-    </head>
-    <body>
-      <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site com o objetivo de exemplificar habilidades web." />
+    <meta name="author" content="Maykon júnio" />
+    <link rel="shortcut icon" type="imagex/png" href="../Midia/Imagens/icon.png"/>
+    <link rel="stylesheet" href="../Estilos/Style.css" />
+    <title>Portfólio - Maykon Júnio</title>
+  </head>
+
+  <body id="home">
+    <header>
+      <div class="cabeçalho">
         <h2 class ="habilidades">DESENVOLVEDOR WEB • BACK-END • FRONT-END • FULL STACK</h2>
-        <nav>
+        <nav id="menu">
           <ul>
-            <li><a href="index.html">HOME</a></li>
+            <li><a href="#home" class="home1">HOME</a></li>
             <li><a href="1_tela_Formaçao.html">FORMAÇÃO</a></li>
             <li><a href="2_tela_Projetos.html">PROJETOS</a></li>
             <li><a href="3_tela_Hobbies.html">HOBBIES</a></li>
-            <li><a href="4_tela_Contato.html">CONTATO</a></li>
+            <li><a href="#contato" class="home1">CONTATO</a></li>
           </ul>
         </nav>
-        <h1 class="logo"><a href="../Telas/index.html"><img src="../Midia/Imagens/titulo-1.png" alt="Maykon Júnio"/></a></h1>
-      </header>
-      <footer>
-        Site criado por<a href="../Telas/4_tela_Contato.html" class="nome_autor">Maykon Júnio</a>
-      </footer>
-    </body>
+      </div>
+      <h1 class="logo"><a href="../Telas/index.html"><img src="../Midia/Imagens/titulo-1.png" alt="Maykon Júnio"/></a></h1>
+    </header>
+    <main class="mainPrincipal">
+      <section class="box_paragrafo_1">
+        <img src="../Midia/Imagens/img-p1.png"  class="imagem_paragrafo"/>
+        <h2 class="titulo_paragrafo">Conquista de Castela</h2>
+        <p class="paragrafo_1">
+          A taifa de Toledo caiu nas mãos de Afonso VI de Leão e Castela sem oferecer resistência a 25 de Maio de 1085. 
+          Madrid e os seus arredores ficaram integrados no reino de Castela. Mudaram os muçulmanos, que habitavam na cidade, 
+          para os arrabaldes (bairros periféricos) que estavam ocupados na era árabe por moçárabes. Durante o século seguinte, 
+          Madrid recebe várias ofensivas árabes: os almorávidas, que incendiaram a cidade em 1109, e o Califado Almóada mais tarde em 1197. 
+        </p>
+      </section>
+      <section class="box_paragrafo_2" data-animacao="bottom">
+        <img src="../Midia/Imagens/img-p2.png" class="imagem_paragrafo2"/>
+        <h2 class="titulo_paragrafo2" data-animacaop="bottom">Ditadura de Franco</h2>
+        <p class="paragrafo_2" data-animacaop="bottom">
+          Terminada a guerra, a cidade continuou a crescer espacialmente. 
+          Centenas de milhares de espanhóis mudam-se do campo para a capital.[15] Madrid, 
+          em conjunto com Barcelona e Bilbao, é uma das cidades que mais beneficiou com estes movimentos populacionais.
+        </p>  
+      </section>
+      <section class="box_paragrafo_3" data-animacao="bottom">
+        <img src="../Midia/Imagens/img-p3.png" class="imagem_paragrafo"/>
+        <h2 class="titulo_paragrafo" data-animacaop="bottom">Os Treze</h2>
+        <p class="paragrafo_3" data-animacaop="bottom">
+          A partir de 5 de Junho de 1948, começa o processo de anexação a Madrid de treze municípios nos arredores; 
+          este processo acabou a 31 de Julho de 1954, juntado a Madrid os municípios de Aravaca, Barajas, Canillas, 
+          Canillejas, Chamartín de la Rosa, Fuencarral, Hortaleza, El Pardo, Vallecas, Vicálvaro, Villaverde, Alto Carabanchel 
+          e Baixo Carabanchel.
+        </p>
+      </section>
+    </main>
+
+      <main class="mainContato" data-animacao="bottom" id="contato">
+          <section>
+            <h1>Maykon Júnio</h1>
+            <h2>maykola1331@gmail.com</h2>
+            <h3>+55 61 9 9412 7452</h3>
+            <section class="buttons">
+              <button class="buttons1">
+                <a href="https://github.com/maykonjuso" target="_blank">
+                  <img src="../Midia/Imagens/icon-github.png">
+                </a>
+              </button>
+              <button class="buttons1">
+                <a href="https://www.instagram.com/maiiko_n/" target="_blank">
+                  <img src="../Midia/Imagens/icon-instagram.png">
+                </a>
+              </button>
+              <button class="buttons1">
+                <a href="https://www.linkedin.com/in/maykon13/" target="_blank">
+                <img src="../Midia/Imagens/icon-linkedin.png">
+                </a>
+              </button>
+            </section>
+          </section>
+      </main>
+
+    <footer>
+      Site criado por Maykon Júnio
+    </footer>      
+    <h3 class="seta">
+        <a href="#home" class="voltar-ao-topo">
+          voltar ao topo
+        </a>
+      </h3>
+    <script src="../javaScript/script.js"></script>
+  </body>
 </html>
