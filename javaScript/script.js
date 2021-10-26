@@ -10,10 +10,6 @@ menuItens1.forEach(item => {
     item.addEventListener('click', eventoClick);
 })
 
-menuItens2.forEach(item => {
-    item.addEventListener('click', eventoClick);
-})
-
 function eventoClick(event) {
     event.preventDefault();
     var elemento = event.target;
