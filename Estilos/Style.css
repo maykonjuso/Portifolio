@@ -157,7 +157,10 @@ p {
   font-size: 30px;
   color: var(--cor4);
   padding: 60px 90px 30px 100px;
-
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
   /* width: 100%; */
   /* float: left; */
 
@@ -188,7 +191,10 @@ p {
 }
 
 .estilo_formacao img{
-
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .estilo_formacao div{
@@ -202,26 +208,39 @@ p {
 
 .estilo_formacao div h4{
   width: max-content;
-  transition: anima 3s ease-in-out alternate;
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .estilo_formacao div h5{
   width: max-content;
-  transition: anima 3s ease-in-out alternate;
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }
 .texto{
 }
 
 
-@keyframes anima {
-  0% {
-    opacity: 0;
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
   }
-
-  100% {
-    opacity: 1;
+  @-moz-keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
   }
-}
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
 
 
 .box_1 {
