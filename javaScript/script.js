@@ -20,10 +20,11 @@ function eventoClick(event) {
     var id = elemento.getAttribute('href');
     var to = document.querySelector(id).offsetTop;
     window.scroll({
-        top: to,
+        top: to - 200,
         behavior: "smooth"
     });
 }
+
 
 // animação scroll
 

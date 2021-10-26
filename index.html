@@ -15,7 +15,7 @@
     <header>
       <div class="cabeçalho">
         <h2 class ="habilidades">DESENVOLVEDOR WEB • BACK-END • FRONT-END • FULL STACK</h2>
-        <nav id="menu">
+        <nav id="menu" class="nav">
           <ul>
             <li><a href="#home" class="home1">HOME</a></li>
             <li><a href="#formação" class="home1">FORMAÇÃO</a></li>
@@ -25,50 +25,52 @@
           </ul>
         </nav>
       </div>
-      <h1 class="logo"><a href="Telas/index.html"><img src="Midia/Imagens/titulo-1.png" alt="Maykon Júnio"/></a></h1>
+      <h1 class="logo"><a href="index.html"><img src="Midia/Imagens/titulo-1.png" alt="Maykon Júnio"/></a></h1>
     </header>
     <main class="mainPrincipal">
-      <section class="box_paragrafo_1">
+      <section class="box_1">
         
-        <h2 class="titulo_paragrafo">Formação</h2>
-        <h4 class="subtitulo">Engenharia de Software</h4>
-        <p class="paragrafo_1">
-          Universidade de Brasília - 2021 (cursando)
-        </p>
-        <img src="Midia/Imagens/unb.png"  class="imagens1"/>
-        <h4 class="subtitulo">Técnico em Química</h4>
-        <p class="paragrafo_1">
-          Instituto Federal de Brasília - 2021 (concluído)
-        </p>
-        <img src="Midia/Imagens/ifb.png" class="imagens2"/>
-        <h4 class="subtitulo">Ensino médio</h4>
-        <p class="paragrafo_1">
-          Instituto Federal de Brasília - 2021 (concluído)
-        </p>
-        <img src="Midia/Imagens/ifb.png" class="imagens2"/>
+        <h2 class="titulo_main" id="formação">Formação</h2>
+        
+        <div class="box_itens">
+        
+          <div class="estilo_formacao">
+            <img src="Midia/Imagens/unb.png"  class="imagens"/>
+            <div>
+              <h4 class="subtitulo_box">Engenharia de Software</h4>
+              <h5 class="texto">
+                  Universidade de Brasília - 2021 (cursando)
+              </h5>
+            </div>
+          </div>
+          
+          <div class="estilo_formacao">
+            <img src="Midia/Imagens/ifb.png" class="imagens"/>
+            <div>
+              <h4 class="subtitulo_box">Técnico em Química</h4>
+              <h5 class="texto">
+                Instituto Federal de Brasília - 2021 (concluído)
+              </h5>
+            </div>
+          </div>
+
+          <div class="estilo_formacao">
+            <img src="Midia/Imagens/ifb.png" class="imagens"/>
+            <div>
+              <h4 class="subtitulo_box">Ensino médio</h4>
+              <h5 class="texto">
+                Instituto Federal de Brasília - 2021 (concluído)
+              </h5>
+            </div>
+          </div>
+        
+        </div>
       </section>
-      <section class="box_paragrafo_2" data-animacao="bottom">  
-        <img src="Midia/Imagens/logo-orc.svg" class="imagem_paragrafo2"/>
-        <h2 class="titulo_paragrafo2" data-animacaop="bottom">Ditadura de Franco</h2>
-        <p class="paragrafo_2" data-animacaop="bottom">
-          Terminada a guerra, a cidade continuou a crescer espacialmente. 
-          Centenas de milhares de espanhóis mudam-se do campo para a capital.[15] Madrid, 
-          em conjunto com Barcelona e Bilbao, é uma das cidades que mais beneficiou com estes movimentos populacionais.
-        </p>  
-      </section>
-      <section class="box_paragrafo_3" data-animacao="bottom">
-        <img src="Midia/Imagens/img-p3.png" class="imagem_paragrafo"/>
-        <h2 class="titulo_paragrafo" data-animacaop="bottom">Os Treze</h2>
-        <p class="paragrafo_3" data-animacaop="bottom">
-          A partir de 5 de Junho de 1948, começa o processo de anexação a Madrid de treze municípios nos arredores; 
-          este processo acabou a 31 de Julho de 1954, juntado a Madrid os municípios de Aravaca, Barajas, Canillas, 
-          Canillejas, Chamartín de la Rosa, Fuencarral, Hortaleza, El Pardo, Vallecas, Vicálvaro, Villaverde, Alto Carabanchel 
-          e Baixo Carabanchel.
-        </p>
-      </section>
+
+      
     </main>
 
-      <main class="mainContato" data-animacao="bottom" id="contato">
+      <main class="mainContato" data-animacao="bottom">
           <section>
             <h1>Maykon Júnio</h1>
             <h2>maykola1331@gmail.com</h2>
@@ -93,7 +95,7 @@
           </section>
       </main>
 
-    <footer>
+    <footer id="contato">
       Site criado por Maykon Júnio
     </footer>      
     <h3 class="seta">

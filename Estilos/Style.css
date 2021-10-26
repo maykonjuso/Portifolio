@@ -25,6 +25,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Raleway", sans-serif;
 }
 
 #home {
@@ -151,97 +152,92 @@ p {
 
 /* Configuração titulo paragrafo */
 
-.titulo_paragrafo {
+.titulo_main {
   font-family: "Raleway", sans-serif;
-  width: 500px;
   font-size: 30px;
-  padding: 50px 50px;
   color: var(--cor4);
-  float: left;
-}
+  padding: 60px 90px 30px 100px;
 
-.titulo_paragrafo2 {
-  font-family: "Raleway", sans-serif;
-  width: 500px;
-  font-size: 30px;
-  padding: 30px 50px 10px 50px;
-  color: var(--cor2);
-  float: left;
+  /* width: 100%; */
+  /* float: left; */
 }
-
-.subtitulo {
+.subtitulo_box {
   font-family: "Raleway", sans-serif;
-  width: 500px;
+  /* width: 500px; */
   font-size: 20px;
-  padding: 10px 50px;
   color: var(--cor6);
-  float: left;
-  text-indent: 50px;
+  /* padding: 50px 50px; */
 }
 
-/* Paragrafo 1 */
+.box_itens {
+  /* width: 800px; */
+  /* background-color : var(--cor3); */
+  /* flex-wrap: wrap; */
+  /* height: 500px; */
+  width: 80%;
+  margin: auto;
 
-.box_paragrafo_1 {
+}
+
+.estilo_formacao {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.estilo_formacao img{
+
+}
+
+.estilo_formacao div{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.estilo_formacao div h4{
+  width: max-content;
+}
+
+.estilo_formacao div h5{
+  width: max-content;
+}
+.texto{
+}
+
+.box_1 {
   width: 1000px;
-  height: 630px;
+  height: 660px;
   background-color: var(--cor1);
   border-radius: 5px;
   margin-bottom: 5px;
-
-}
-.paragrafo_1 {
-  width: 500px;
-  height: 100px;
-  padding: 10px 50px;
-  color: var(--cor6);
-  float: left;
 }
 
-/* Paragrafo 2 */
-
-.box_paragrafo_2 {
+.box_2 {
   width: 1000px;
   height: 200px;
   background-color: var(--cor6);
   border-radius: 5px;
   margin-bottom: 5px;
 }
-.paragrafo_2 {
-  width: 500px;
-  height: 250px;
-  padding: 10px 50px;
-  color: var(--cor1);
-  float: right;
-}
 
-/* Paragrafo 3 */
 
-.box_paragrafo_3 {
+.box_3 {
   width: 1000px;
   height: 405px;
   background-color: var(--cor1);
   border-radius: 5px;
 }
-.paragrafo_3 {
-  width: 500px;
-  height: 250px;
-  padding: 10px;
-  color: var(--cor6);
-  float: left;
-}
+
 
 /* Imagens */
 
-.imagens1 {
-  margin-top: 100px;
-  margin-left: 150px;
+.imagens {
+  /* margin-left: 150px; */
 }
-
-.imagens2 {
-  margin-top: 10px;
-  margin-left: 150px;
-}
-
 
 /* Rodapé */
 
@@ -336,7 +332,7 @@ h3 {
 
 .mainContato{
   width: 100%;
-  height: 100vh;
+  height: 700px;
   background-color: var(--cor1);
   margin: auto;
   display: flex;
