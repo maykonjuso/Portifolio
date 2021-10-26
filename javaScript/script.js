@@ -1,12 +1,11 @@
 var menuItens1 = document.querySelectorAll('.seta');
+var menuItens2 = document.querySelectorAll('.home1');
 
 menuItens1.forEach(item => {
     item.addEventListener('click', eventoClick);
 })
 
-var menuItens2 = document.querySelectorAll('.home1');
-
-menuItens1.forEach(item => {
+menuItens2.forEach(item => {
     item.addEventListener('click', eventoClick);
 })
 
