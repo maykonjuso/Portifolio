@@ -20,7 +20,7 @@ function eventoClick(event) {
     var id = elemento.getAttribute('href');
     var to = document.querySelector(id).offsetTop;
     window.scroll({
-        top: to - 200,
+        top: to - 133,
         behavior: "smooth"
     });
 }
