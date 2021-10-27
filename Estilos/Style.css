@@ -131,8 +131,7 @@ nav ul li a:hover {
 /* Corpo do site */
 
 .mainPrincipal {
-  width: 1000px;
-  height: 1325px;
+  width: 100%;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -148,6 +147,14 @@ p {
   text-align: justify;
   margin: 0px;
   text-indent: 50px;
+}
+
+p a{
+  text-decoration: none;
+  color: var(--cor5)
+}
+p a:hover{
+  color: #000
 }
 
 /* Configuração titulo paragrafo */
@@ -196,11 +203,11 @@ p {
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  padding-left: 100px;
-  margin-left: 100px;
+  padding-left: 10%;
+  margin-left: 10%;
 
   border-style: solid;
-  border-color: var(--cor2);
+  border-color: var(--cor3);
   border-bottom-width: 0;
   border-top-width: 0;
   border-right-width: 0;
@@ -241,23 +248,24 @@ p {
 
 
 .box_1 {
-  width: 1000px;
+  width: 70%;
   height: 650px;
   background-color: var(--cor1);
   border-radius: 15px;
+  margin: auto;
   margin-bottom: 5px;
   -webkit-animation: fadeIn 2s ease-in-out;
   -moz-animation: fadeIn 2s ease-in-out;
   -o-animation: fadeIn 2s ease-in-out;
   animation: fadeIn 2s ease-in-out;
-  
 }
 
 .box_2 {
-  width: 1000px;
+  width: 70%;
   height: 650px;
   background-color: var(--cor1);
   border-radius: 15px;
+  margin: auto;
   margin-bottom: 5px;
   -webkit-animation: fadeIn 2s ease-in-out;
   -moz-animation: fadeIn 2s ease-in-out;
@@ -285,6 +293,7 @@ p {
   margin-left: 20px;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
+  border-radius: 10px;
 }
 
 .imagens:hover{
