@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 /* Variáveis */
 
@@ -372,7 +373,7 @@ p a:hover{
 }
 
 footer {
-  font-family: "Oswald", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: var(--cor6);
   height: 50px;
   color: var(--cor1);
@@ -471,8 +472,8 @@ h3 {
 }
 
 .mainContato h2{
-  font-family: "Raleway", sans-serif;
-  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
   font-size: 20px;
   display: flex;
   flex-direction: row;
@@ -481,9 +482,9 @@ h3 {
 }
 
 .mainContato h3{
-  font-family: "Oswald", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
