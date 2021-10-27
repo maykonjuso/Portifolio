@@ -257,7 +257,7 @@ p a:hover{
 
 .box_1 {
   width: 70%;
-  height: 650px;
+  height: 660px;
   background-color: var(--cor1);
   border-radius: 15px;
   margin: auto;
@@ -267,33 +267,6 @@ p a:hover{
   -o-animation: fadeIn 2s ease-in-out;
   animation: fadeIn 2s ease-in-out;
 }
-
-.box_2 {
-  width: 70%;
-  height: 650px;
-  background-color: var(--cor1);
-  border-radius: 15px;
-  margin: auto;
-  margin-bottom: 5px;
-  -webkit-animation: fadeIn 2s ease-in-out;
-  -moz-animation: fadeIn 2s ease-in-out;
-  -o-animation: fadeIn 2s ease-in-out;
-  animation: fadeIn 2s ease-in-out;
-}
-
-
-.box_3 {
-  width: 1000px;
-  height: 615px;
-  background-color: var(--cor1);
-  border-radius: 5px;
-  margin-bottom: 5px;
-  -webkit-animation: fadeIn 2s ease-in-out;
-  -moz-animation: fadeIn 2s ease-in-out;
-  -o-animation: fadeIn 2s ease-in-out;
-  animation: fadeIn 2s ease-in-out;
-}
-
 
 /* Imagens */
 
