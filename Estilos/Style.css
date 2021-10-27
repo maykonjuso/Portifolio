@@ -500,8 +500,64 @@ h3 {
 
 }
 
+.buttons1 a div{
+  width: 50px;
+  height: 50px;
+}
+
 .buttons1{
+  width: 50px;
+  height: 50px;
   margin: 25px;
   border: none;
   background-color: transparent;
+  background-image: url('../Midia/Imagens/icon-github.png');
 }
+
+.buttons1:hover{
+  background-image: url('../Midia/Imagens/icon-github_hover.png');
+  transition: all 1s ease-out;
+}
+
+
+
+.buttons2 a div{
+  width: 50px;
+  height: 50px;
+}
+
+.buttons2{
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  border: none;
+  background-color: transparent;
+  background-image: url('../Midia/Imagens/icon-instagram.png');
+}
+
+.buttons2:hover{
+  background-image: url('../Midia/Imagens/icon-instagram_hover.png');
+  transition: all 1s ease-out;
+}
+
+
+
+.buttons3 a div{
+  width: 50px;
+  height: 50px;
+}
+
+.buttons3{
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  border: none;
+  background-color: transparent;
+  background-image: url('../Midia/Imagens/icon-linkedin.png');
+}
+
+.buttons3:hover{
+  background-image: url('../Midia/Imagens/icon-linkedin_hover.png');
+  transition: all 1s ease-out;
+}
+
